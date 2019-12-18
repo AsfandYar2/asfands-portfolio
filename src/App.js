@@ -101,7 +101,7 @@ function App() {
                     <b>{project.name}</b>
                   </p>
                   <img
-                    src={`/${project.img}`}
+                    src={project.img}
                     className=" mx-auto d-block"
                     alt="img"
                   />

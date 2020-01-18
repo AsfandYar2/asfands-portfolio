@@ -30,11 +30,10 @@ function App() {
           <i>Software Engineer</i>
         </h2>
         <h3>Full Stack </h3>
-        <p>JavaScript Engineer</p>
         <h5> MERN Stack Developer</h5>
         <h6>Experties in </h6>
         <b>
-          <p>React,React with Redux</p>
+          <p>React,Redux</p>
           <p>Node,Express,MongoDB</p>
           <p>Firebase</p>
         </b>
@@ -79,10 +78,10 @@ function App() {
               I am right know keeping myself abreast of new programming
               techniques <br />
               and know how the system works.
-              <br /> I am a highly passionate and motivated programmer
+              <br />
             </p>
           </pre>
-          Best experienced in Web Apps Dev.
+          Best experienced in Web App Development.
           <br />
           <h4 id="Projects">
             MERN Stack(Mongodb,Express,ReactJs,NodeJs) Development

@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       {/* nav bar */}
-      <nav id="nav" class="navbar fixed-top navbar-light bg-dark">
+      <nav id="nav" className="navbar fixed-top navbar-light bg-dark">
         <h3>
           <i class="fab fa-product-hunt"></i>ortfolio
         </h3>
@@ -24,7 +24,7 @@ function App() {
         </ul>
       </nav>
       {/* sidebar */}
-      <div class="sidenav">
+      <div className="sidenav">
         <h3>Asfand yar</h3>
         <h2>
           <i>Software Engineer</i>
@@ -92,7 +92,7 @@ function App() {
         <br />
         {/* projects body */}
         <div className="row">
-          {myProject.map(project => {
+          {myProject.map((project) => {
             return (
               <div id="projects" className="col-md-10 container">
                 <div className="card bg-light">
@@ -130,7 +130,7 @@ function App() {
           <img
             src="images/resume.JPG"
             alt="resume"
-            className=" mx-auto d-block"
+            className=" mx-auto d-block resume-img"
           />
           <a
             href="images/resume.pdf"

@@ -94,9 +94,9 @@ function App() {
         <div className="row">
           {myProject.map((project) => {
             return (
-              <div id="projects" className="col-md-10 container">
+              <div id="projects" className="col-md-6 container">
                 <div className="card bg-light">
-                  <p>
+                  <p style={{ textAlign: "center" }}>
                     <b>{project.name}</b>
                   </p>
                   <img

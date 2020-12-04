@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       {/* nav bar */}
-
+      {/* project/asfands-porfolio */}
       <nav id="nav" className="navbar fixed-top navbar-light bg-dark">
         <h3>
           <i class="fab fa-product-hunt"></i>ortfolio
